@@ -1,13 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Franklin Gothic Medium';
   font-size: large;
   max-width: 100%;
-}
-
-.navbar-light .navbar-toggler {
-  background-color: whitesmoke;
 }
 
 #home {
@@ -15,30 +10,13 @@
   padding: 50px;
 }
 
-.logo {
-  padding: 100px;
-}
-
-.name {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-#aboutme {
+#about {
   background-color: black;
-  color: whitesmoke;
-  padding: 100px;
+  padding: 50px;
 }
 
 .title {
-  font-size: 50px;
-  font-weight: bold;
   text-decoration: underline pink;
-}
-
-.text-aboutme {
-  text-align: left;
-  width: 500px;
 }
 
 #portfolio {
@@ -46,19 +24,7 @@
   padding: 50px;
 }
 
-#contato {
-  color: whitesmoke;
+#contact {
   background-color: black;
   padding: 50px;
-}
-
-footer {
-  padding: 10px;
-  background-color: black;
-  color: whitesmoke;
-}
-
-.rodape {
-  position: relative;
-  top: 10px;
 }
