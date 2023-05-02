@@ -1,0 +1,56 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+
+canvas {
+    border: 2px solid black;
+    margin-top: 5px;
+    background-color: #A1B591;
+}
+
+.titulo{
+    color: black;
+    font: Courier, Arial;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+button {
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+button.start {
+    background: #A1B591;
+    color: black;
+}
+
+button.pause {
+    background: #3B6918;
+    color: black;
+}
+
+.config {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.hide {
+    display: none;
+}
